@@ -1,0 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/33b66a066789321b7169de24c36b7ade?family=GT+America+Expanded+Black);
+
+* {
+  font-family: "GT America Expanded Black", sans-serif;
+}
+
+.marquee {
+  width: 100%;
+  padding: 90px 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+}
