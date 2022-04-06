@@ -4,6 +4,8 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
   box-sizing: border-box;
   /* font-family: "Palette Mosaic", cursive; */
   font-family: "GT America Expanded Black", sans-serif;
@@ -67,8 +69,9 @@
   box-shadow: none;
 } */
 
+h1,
 .navbar-toggler-name:hover {
-  color: pink;
+  color: orange;
 }
 
 /* .content {
@@ -82,12 +85,16 @@
   letter-spacing: 3px;
 } */
 
-/* .content {
-} */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
 
 .content-img {
-  padding: 24vh 4vw 4vw 4vw;
+  padding: 15vh 4vw 4vw 4vw;
+  line-height: 10px;
   width: 100%;
+  display: block;
 }
 
 .content-par {
@@ -101,11 +108,11 @@
 @media (min-width: 992px) {
   .content-img {
     float: right;
-    padding: 24vh 10vw 1.5vw 10vw;
+    padding: 20vh 5vw 1.5vw 5vw;
     width: 50%;
   }
   .content-par {
-    padding: 24vh 1.5vw 1.5vw 1.5vw;
+    padding: 20vh 1.5vw 1.5vw 1.5vw;
     width: 50%;
   }
 }
@@ -113,7 +120,7 @@
 .content-skills {
   font-size: 20px;
   font-size: 1.95vw;
-  padding: 4vw;
+  padding: 4vw 1.5vw 1vw;
   width: 100%;
 }
 
@@ -182,6 +189,6 @@
 }
 
 .content-credit a {
-  color: black;
+  color: gainsboro;
   text-decoration: none;
 }
