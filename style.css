@@ -9,16 +9,6 @@
   font-family: "GT America Expanded Black", sans-serif;
 }
 
-/* body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: greenyellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .marquee {
   width: 100%;
   padding: 90px 20px;
@@ -91,3 +81,58 @@
   justify-content: center;
   letter-spacing: 3px;
 } */
+
+.content-skills-list {
+  display: block;
+  line-height: 125%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 20px;
+  font-size: 7.5vh;
+}
+
+.content-skills-list-text {
+  display: inline-block;
+}
+
+.content-marquee-wrapper {
+  width: 1000000px;
+  transform: translateX(0px);
+  /* animation: contentAnimation 90s linear 1s infinite normal none running; */
+}
+
+@keyframes contentAnimation-1 {
+  100% {
+    transform: translateX(-12000px);
+  }
+}
+
+@keyframes contentAnimation-2 {
+  100% {
+    transform: translateX(-9700px);
+  }
+}
+
+@keyframes contentAnimation-3 {
+  100% {
+    transform: translateX(-10500px);
+  }
+}
+
+@keyframes contentAnimation-4 {
+  100% {
+    transform: translateX(-7100px);
+  }
+}
+
+@keyframes contentAnimation-5 {
+  100% {
+    transform: translateX(-8700px);
+  }
+}
+
+.content-marquee {
+  margin-right: 0px;
+  float: left;
+}
