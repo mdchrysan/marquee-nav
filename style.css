@@ -74,6 +74,10 @@ h1,
   color: orange;
 }
 
+span {
+  color: lightsalmon;
+}
+
 /* .content {
   margin: 0;
   padding: 0;
