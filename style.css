@@ -81,7 +81,7 @@
   color: pink;
 }
 
-.content {
+/* .content {
   margin: 0;
   padding: 0;
   height: calc(100vh - 58px);
@@ -90,4 +90,4 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 3px;
-}
+} */
