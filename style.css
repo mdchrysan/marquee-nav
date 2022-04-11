@@ -138,12 +138,48 @@
 .marquee-wrapper {
   width: 1000000px;
   transform: translateX(0px);
-  /* animation: contentAnimation 90s linear 1s infinite normal none running; */
+  /* animation: marqueeAnimation 90s linear 1s infinite normal none running; */
 }
 
 .marquee {
   margin-right: 0px;
   float: left;
+}
+
+@keyframes marqueeAnimation-1 {
+  100% {
+    transform: translateX(-12000px);
+  }
+}
+
+@keyframes marqueeAnimation-2 {
+  100% {
+    transform: translateX(-9700px);
+  }
+}
+
+@keyframes marqueeAnimation-3 {
+  100% {
+    transform: translateX(-10500px);
+  }
+}
+
+@keyframes marqueeAnimation-4 {
+  100% {
+    transform: translateX(-7100px);
+  }
+}
+
+@keyframes marqueeAnimation-5 {
+  100% {
+    transform: translateX(-8700px);
+  }
+}
+
+@keyframes marqueeAnimation-6 {
+  100% {
+    transform: translateX(-6900px);
+  }
 }
 
 h1,
@@ -220,53 +256,6 @@ img {
 
 .content-skills-list-text {
   display: inline-block;
-}
-
-.content-marquee-wrapper {
-  width: 1000000px;
-  transform: translateX(0px);
-  /* animation: contentAnimation 90s linear 1s infinite normal none running; */
-}
-
-@keyframes contentAnimation-1 {
-  100% {
-    transform: translateX(-12000px);
-  }
-}
-
-@keyframes contentAnimation-2 {
-  100% {
-    transform: translateX(-9700px);
-  }
-}
-
-@keyframes contentAnimation-3 {
-  100% {
-    transform: translateX(-10500px);
-  }
-}
-
-@keyframes contentAnimation-4 {
-  100% {
-    transform: translateX(-7100px);
-  }
-}
-
-@keyframes contentAnimation-5 {
-  100% {
-    transform: translateX(-8700px);
-  }
-}
-
-@keyframes contentAnimation-6 {
-  100% {
-    transform: translateX(-6900px);
-  }
-}
-
-.content-marquee {
-  margin-right: 0px;
-  float: left;
 }
 
 .content-credit {
